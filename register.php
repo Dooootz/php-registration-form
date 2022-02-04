@@ -12,9 +12,11 @@
 	// Establish connection - new mysqli('localhost','DBusername','DBpassword','DBname',)
 	$conn = new mysqli('localhost','root','','registerform');
 
+
 	// If else statement handles errors 
 	// IF DB connection fails. Then "echo" (print,console.log) $conn->connect_error 
 	if($conn->connect_error){
+
 		echo "$conn->connect_error";
 		// die() - kills connection
 		die("Connection Failed : ". $conn->connect_error);
