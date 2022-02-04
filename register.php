@@ -41,5 +41,4 @@
 		header("Refresh:1; url=registration.php");
 	}
 
-	// this is a change to see if I set this shit up properly  
-	
+	// this is a change to see if I set this shit up properly  lol
