@@ -1,7 +1,7 @@
 <?php
+	//------
 	// instantiate variables 
 	// variableName = $_HTTPrequest['db_tableName']'
-
 	$firstname = $_POST['firstname'];
 	$lastname = $_POST['lastname'];
 	$email = $_POST['email'];
