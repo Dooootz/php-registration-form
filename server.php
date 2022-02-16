@@ -43,6 +43,4 @@
 		header("Refresh:1; url=registration.php");
 	}
 
-	// reviewing 
 
-	// are commits working?
